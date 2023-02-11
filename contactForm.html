@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./contactForm.css" />
+    <title>Contact Form</title>
+  </head>
+
+  <body>
+    <container id="cont">
+<!--       
+      <form action="sendform.php" method="post">
+
+        Name: <input type="text" name="name" required /><br />
+
+        Email: <input type="email" name="email" required /><br />
+
+        Phone Number: <input type="tel" name="phone" /><br />
+
+        Message: <textarea name="message" rows="5" cols="40"></textarea><br />
+
+        Subject: <input type="text" name="subject" required /><br />
+
+        <input type="submit" />
+
+      </form> -->
+
+      <form>
+        <h1>ROOM 4 CONTACT FORM. </h1>
+        
+        <div>
+          <div class="row">
+            <div>
+              <div class="form-group">
+                <label for="form_name">Full Name *</label>
+              </div>
+              <input
+                id="form_name"
+                type="text"
+                name="name"
+                placeholder="Please enter your full name *"
+                required="required"
+              />
+
+            </div>
+
+            <div >
+              <div class="form-group">
+                <label for="form_lastname">Phone  Number *</label>
+                
+              </div>
+              <input
+                  id="form_lastname"
+                  type="text"
+                  name="Number"
+                  placeholder="Please enter your mobile number *"
+                  required="required"
+                  
+                />
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div>
+              <div class="form-group">
+                <label for="form_email">Email *</label>
+                
+              </div>
+              <input
+                  id="form_email"
+                  type="email"
+                  name="email"
+                  placeholder="Please enter your email *"
+                  required="required"
+                 
+                />
+            </div>
+
+
+            <div>
+              <div class="form-group">
+                <label for="form_need">Please specify <br> your Event *</label>
+                
+              </div>
+              <select
+                  id="form_need"
+                  name="need"
+                  required="required"
+                >
+                  <option value="" selected disabled>
+                    --Select Your Event--
+                  </option>
+                  <option>Weddings,Receptions,Engagements</option>
+                  <option>Graduations, School Events</option>
+                  <option>Birthdays, General celebrations, Reunions</option>
+                  <option>Other</option>
+                </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div>
+              <div class="form-group">
+                <label for="form_email">No Of People *</label>
+                
+            </div>
+            <input
+                  id="form_email"
+                  type="number"
+                  name="people"
+                  placeholder="Please enter number of pax. *"
+                  required="required"
+                  
+                />
+              </div>
+
+
+
+
+            <div>
+              <div class="form-group">
+                <label for="form_email">No Of Hours *</label>
+                
+              </div>
+              <input
+                  id="form_email"
+                  type="number"
+                  name="email"
+                  placeholder="Please enter number of hours *"
+                  required="required"
+                 
+                />
+            </div>
+          </div>
+
+          <div class="row">
+            <div>
+              <div class="form-group">
+                <label for="form_message">Special Requests. *</label>
+                
+              </div>
+              <textarea
+                  id="form_message"
+                  name="message"
+                  placeholder="Write your message here."
+                  rows="10"
+                  cols="40"
+                  required="required"
+                  
+                ></textarea>
+            </div>
+
+            <div>
+              <input
+                type="submit"
+                class="btn buton btn-transparent btn-send pt-2 btn-block"
+                value="Get A Quote."
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+    </container>
+  </body>
+</html>
